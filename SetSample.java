@@ -17,8 +17,7 @@ public class SetSample {
         for (String day:days){
             System.out.println(day);
         }
-        //Tekrarlanan günleri terminal ekranına yazmaz.
-        //yukarıda yazıldığı şekilde değil karışık listeler
+
         System.out.println("Toplam gün sayısı: "+days.size());
     }
 
@@ -46,8 +45,7 @@ public class SetSample {
         cityName.add("Paris");
         cityName.add("Venice");
         cityName.add("Canakkale");
-        //Tekrarlanan Şehirleri terminal ekranına yazmaz.
-        //Yazıldığı şekilde değil alfabetik sırayla terminale listeler
+       
         for (String city:cityName){
             System.out.println(city);}
         System.out.println("Şehir sayısı:"+cityName.size());
