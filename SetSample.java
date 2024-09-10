@@ -30,8 +30,7 @@ public class SetSample {
         members.add("berk");
         members.add("Canan");
         System.out.println(" Üye Listesi\n");
-        //Tekrarlanan günleri terminal ekranına yazmaz.
-        //Yazıldığı şekilde listeler
+
         for (String member:members){
             System.out.println(member);
         }
