@@ -14,13 +14,12 @@ public class MapSample {
         for (Map.Entry<String,Integer>entry : studentNote.entrySet()){
             System.out.println(entry.getKey()+"-"+ entry.getValue());
         }
-        System.out.println("Zehranın Notu: "+studentNote.get("Zehra"));//istediğimiz kişinin notu için.
+        System.out.println("Zehranın Notu: "+studentNote.get("Zehra"));
     }
 
 
     public static void LinkedHashMap(){
         Map<String,String> ziyaretci_girisi=new LinkedHashMap<>();
-        // Ziyaretçileri ekleme sırasına göre ekleme
         ziyaretci_girisi.put("15:10","Ali");
         ziyaretci_girisi.put("14:35","Eylül");
         ziyaretci_girisi.put("15:30","Mehmet");
@@ -44,9 +43,8 @@ public class MapSample {
         bookName.put("H ","Hayvan Çiftliği");
         bookName.put("B ","Bin Muhteşem Güneş");
         bookName.put("1 ","1984");
-        System.out.println("\nKitap Listesi\n");//Listeyi alfabetik sıralayacak,
-        // her harften yanlızca birtanesini yazdırır.
-        //rakamları harften önce yazdıracak
+        System.out.println("\nKitap Listesi\n");
+    
         for (Map.Entry<String,String>entry: bookName.entrySet()){
             System.out.println(entry.getKey()+entry.getValue());
         }
