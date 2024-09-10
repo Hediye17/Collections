@@ -15,7 +15,7 @@ public class ListSample {
         }
         System.out.println("Toplam ürünler: "+shopList.size());
 
-        shopList.remove("Süt");  //ürünlerden seçtiğimizi çıkartır listeden
+        shopList.remove("Süt");  
         for (String productNew:shopList){
             System.out.println(productNew);
         }
@@ -28,7 +28,7 @@ public static void LinkedList(){
     sira.add("2.Müşteri");
     sira.add("3.Müşteri");
     sira.add("4.Müşteri");
-    System.out.println(sira);// eklenen kullanıcıları array şeklinde listeler.
+    System.out.println(sira);
     for (String queue:sira){
         System.out.println(queue);
     }
@@ -40,7 +40,7 @@ public static void LinkedList(){
         mesaj.add("Saat 17:30");
         mesaj.add("Aylardan haziran");
         mesaj.add("Hava 32 derece\n");
-        System.out.println(mesaj); //metni [ ] içerisinde virgüller ile ayırarak yan yana yazar
+        System.out.println(mesaj);
         for (String message:mesaj){
             System.out.println(message);
         }
